@@ -42,3 +42,30 @@ for (let i = 1; i <= 10; i++) {
 /* let texto = `medium`
 let texto_modificado = texto.slice(4)
 console.log(texto_modificado) */
+
+ //ciclos anidados
+
+ //ejemplo 1
+ 
+ /* for (i=1;i<10;i++){ 
+    console.log(`la tabla del ${i}`) 
+    for (j=1;j<10;j++) { 
+       console.log(`${i} x ${j} = ${i*j}`)  
+    } 
+} */
+
+ //ejemplo 2
+
+/* let cantidad_de_cuadros = 5
+
+for (let i = 0; i < cantidad_de_cuadros; i++) {
+    console.log(`cuadro numero ${i}`)
+    
+    for (let j = 0  ; j <= cantidad_de_cuadros; j++) {   
+        if (j==0 || j==cantidad_de_cuadros) {
+            console.log(`*****************`)
+        }else{console.log(`*               *`) }       
+    }
+
+    process.stdout.write('\n')
+} */
